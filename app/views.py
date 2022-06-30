@@ -1,3 +1,4 @@
+import re
 from urllib import request
 from django.shortcuts import render
 
@@ -7,3 +8,7 @@ def bootstrap(request):
 
 def cdn_bootstrap(request):
     return render(request,'cdn_bootstrap.html')
+
+
+def templateinheritance(request):
+    return render(request,'templateinheritance.html')

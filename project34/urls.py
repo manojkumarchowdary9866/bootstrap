@@ -21,4 +21,5 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('bootstrap/',bootstrap,name='bootstrap'),
     path('cdn_bootstrap/',cdn_bootstrap,name='cdn_bootstrap'),
+    path('templateinheritance/',templateinheritance,name='templateinheritance'),
 ]
